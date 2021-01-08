@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+:root{
+    --fontFamily:"Roboto Condensed", sans-serif;
+}
+.header{
+    height: 100px;
+    background-color: #f72210;
+    color: #fff;
+}
+.header h1{
+    font-family: var(--fontFamily);
+    padding-top: 40px;
+    text-align: center;
+    vertical-align:text-bottom;
+    font-weight: bolder;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+
+/* ======================Navigation Styles============================= */
+nav{
+    background-color: #fff !important;
+    font-family: var(--fontFamily);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    border-bottom: 1px solid #eee;
+
+}
+nav ul li{
+    border-left: 1px solid #eee;
+    padding: 5px;
+}
+nav ul li a{
+    color: #000 !important;
+}
+
+/* *********************Nav bottom Link Styles starts*************************** */
+.nav-bottom-links{
+   
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+
+}
+.nav-bottom-links ul{
+    list-style: none;
+    
+}
+.nav-bottom-links ul li{
+   float: left;
+   padding-left: 10px;
+ 
+}
+.nav-bottom-links ul li a{
+    font-family: "Roboto Condensed", sans-serif;
+    text-decoration: none;
+    color: #999;
+    text-transform: uppercase;
+ }
+/* =======================================News */
+.featured-stories p{
+    color: #999;
+}
